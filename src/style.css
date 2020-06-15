@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@700&family=Bree+Serif&display=swap');
+
+body {
+    background-color: papayawhip;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Atma';
+    text-align: center;
+    color: orangered;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size: 1.8rem;
+    margin: .4em;
+}
+h3 {
+    text-align: justify;
+    font-family: 'Bree Serif';
+    font-size: 1.3rem;
+}
+section {
+    margin: 0 auto;
+    width: 25em;
+    padding: 1.5em;
+    position: relative;
+    background-color: lemonchiffon;
+    border: 1px solid orange;
+    border-radius: 1em;
+    margin-bottom: 0;
+}
+button {
+    background: orange;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: black;
+	font-size: 1.2rem;
+	transition-duration: .5s;
+    margin-top: 15px;
+    margin-left: 40%;
+    font-family: "Bree Serif";
+}
+footer {
+    text-align: center;
+    color: gray;
+    margin-top: 1em;
+    font-family: Arial;
+    clear: both;
+}
+input {
+    margin: auto;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    box-sizing: content-box;
+    text-align: center;
+    padding: .4em;
+    margin-left: 30%;
+}
+
+/* Clases */
+
+.center {
+    text-align: center;
+}
+.text {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: auto;
+}
+.hyperlink{
+    background-color: peachpuff;
+    border-bottom: orangered solid 1px;
+    border-radius: 0.5em;
+    margin: auto;
+    height: 1.3em;
+    width: 16em;
+    text-align: center;
+    box-sizing: content-box;
+}
+.label{
+    font-family: "Bree Serif";
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 30%;
+}
+.text2 {
+    font-family: "Bree Serif";
+    font-size: 1rem;
+    color: orangered;
+    margin-left: 25%;
+}
+.imgcard{
+    height: 7em;
+    width: 7em;
+    padding-left: 9em;
+
+}
+.imgcheck{
+    height: 2em;
+    width: 2em;
+    padding-left: 12em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
