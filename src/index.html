@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+</head>
+<body>
+    <header>
+      <!--Nombre de la aplicacion web, que aparecera en todas las ventanas-->
+      <h1>MIDESCUENTO</h1>
+  </header>
+  <main>
+      <!--Definiremos una primera seccion del html la cual sera la pantalla de bienvenida o inicio de la app-->
+      <section id="principal">
+          <h2>Bienvenido</h2>
+          <h3>¿Sabes a que beneficios puedes acceder con tu tarjeta de crédito?</h3>
+          <h3 class="center">Te invitamos a validarla para descubrirlo</h3>
+          <!--Agregamos un boton para comenzar, al cual le asociaremos el evento de pasar a la siguiente seccion 
+              mediante addEventListener en JS-->
+          <button id="go" type="button">Comenzar</button><br><br>
+          <img src="creditcard.png" alt="credit card">
+      </section> 
+      <!--Definiremos una segunda seccion la cual contendra un formulario para introducir el nro de la tarjeta-->
+      <section id="inputCreditCard" style="display:none;">
+          <form action="">
+              <!--Input para nombre de usuario que utilice la app-->
+              <label for="name" class="label">Tu nombre:</label><br>
+              <input type="text" id="userName" placeholder="Escribe tu nombre" required/>
+              <p id="empty1"></p>
+              <!--Input para el nro de la tarjeta a validar-->
+              <label for="number" class="label">Nro de tu tarjeta:</label><br>
+              <input type="number" id="creditCard" placeholder="" required/>
+              <p id="empty2"></p>
+              <!--Boton para validar la tarjeta de credito-->
+              <button id="validation" type="button">Validar</button>
+          </form>
+      </section>
+      <!--Definimos una tercera seccion la cual contiene los resultados de la tarjeta-->
+      <section id="valid" style="display: none;">
+          <!-- Este h2 mostrara el mensaje-->
+          <h2 id="messageValid"></h2>
+          <!-- Este h3 mostrara un segundo mensaje-->
+          <h3 id="message" class="center"></h3>
+          <!-- Este h3 mostrara el maskify del nro de tarjeta-->
+          <h3 id=cardNumberAfter class="center"></h3>
+          <!-- Este div mostrara hipervinculos de descuentos si la tarjeta es valida-->
+          <div id="benefits"></div>
+          <!-- Boton para regresar a la pantalla principal-->
+          <button id="return" type="button">Volver</button>
+      </section>
+    </section>
+  </main>
+  <footer>Developed in Laboratoria CC SCL 14 - A.Y</footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
