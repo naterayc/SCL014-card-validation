@@ -29,6 +29,7 @@ document.getElementById('validation').addEventListener('click', () =>{
     }
   //luego de validar
     let valid=validator.isValid(cardNumberA);
+
     if (valid===true){
   //llamando a maskify
     let newCreditCardNumber=validator.maskify(creditcardNumber);
@@ -41,10 +42,14 @@ document.getElementById('validation').addEventListener('click', () =>{
 '<div class="hyperlink"><a href="https://www.lider.cl/" class="text" target="blank">Despacho gratis en Lider.cl solo RM</a></div><br>'+
 '<div class="hyperlink"><a href="https://www.falabella.com/falabella-cl/" class="text" target="blank">35%off moda mujer en Falabella.cl</a></div><br>'
     }
-    else {
-      document.getElementById('messageValid').innerHTML='Lo sentimos, ' + name.toUpperCase();
+    else if (valid===false) {
+      
+      document.getElementById('messageValid').innerHTML='Lo sentimos ' + name.toUpperCase();
       document.getElementById('message').innerHTML='En estos momentos no encontramos beneficios para tu tarjeta';
-      document.getElementById('cardNumberAfter').innerHTML='Numero '+ newCreditCardNumber;
+      document.getElementById('benefits').innerHTML='';
+      document.getElementById('imageCheck').innerHTML='';
+      document.getElementById('cardNumberAfter').innerHTML='';
+      
     } 
   }
   // mostrar mensajes si el input esta vacio al hacer click
@@ -60,7 +65,5 @@ document.getElementById('return').addEventListener('click', () =>{
   document.getElementById('valid').style.display="none";
   document.getElementById('userName').value='';
   document.getElementById('creditCard').value='';
-  cardNumberA='';
-  creditcardNumber='';
-
+  document.getElementById('benefits').innerHTML='';
 });

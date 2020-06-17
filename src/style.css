@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@700&family=Bree+Serif&display=swap');
 
 body {
-    background-color: papayawhip;
+    background-color: #faf6ed;
+    background-image: url("img/arriba.png");
+    background-size:auto;
+    width: auto;
+    height: auto;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Atma';
     text-align: center;
-    color: orangered;
+    color: black;
     margin: 0;
 }
 h2 {
@@ -26,14 +31,14 @@ section {
     width: 25em;
     padding: 1.5em;
     position: relative;
-    background-color: lemonchiffon;
-    border: 1px solid orange;
+    background-color: lavenderblush;
+    border: 1px solid #edb194;
     border-radius: 1em;
     margin-bottom: 0;
 }
 button {
-    background: orange;
-	border: none;
+    background:#edb194;
+	border: solid 1px white;
 	border-radius: 5px;
 	padding: 10px;
 	color: black;
@@ -51,8 +56,11 @@ footer {
     clear: both;
 }
 input {
-    margin: auto;
-    border: 1px solid orangered;
+    margin-top: .7em;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-bottom: 1px solid #edb194;
     border-radius: 5px;
     box-sizing: content-box;
     text-align: center;
@@ -75,7 +83,7 @@ input {
 }
 .hyperlink{
     background-color: peachpuff;
-    border-bottom: orangered solid 1px;
+    border-bottom: #edb194 solid 1px;
     border-radius: 0.5em;
     margin: auto;
     height: 1.3em;
@@ -92,7 +100,7 @@ input {
 .text2 {
     font-family: "Bree Serif";
     font-size: 1rem;
-    color: orangered;
+    color: rgb(245, 104, 53);
     margin-left: 25%;
 }
 .imgcard{
