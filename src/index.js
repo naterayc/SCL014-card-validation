@@ -1,5 +1,6 @@
-
 import validator from './validator.js';
+
+let creditcardNumber='';
 
 // funcionalidad del boton "Comenzar" oculta seccion principal, muestra seccion input
 document.getElementById('go').addEventListener('click', () =>{
@@ -16,7 +17,7 @@ document.getElementById('validation').addEventListener('click', () =>{
     //captura nombre del usuario
       const name= document.getElementById('userName').value;
     //captura numero de tarjeta
-      let creditcardNumber=document.getElementById('creditCard').value;
+      creditcardNumber=document.getElementById('creditCard').value;
     //oculta pantalla de ingreso de datos
       document.getElementById('inputCreditCard').style.display="none";
     //muestra pantalla de resultados de la tarjeta
@@ -33,6 +34,7 @@ document.getElementById('validation').addEventListener('click', () =>{
     let newCreditCardNumber=validator.maskify(creditcardNumber);
   //mostrando resultados en pantalla valid
     document.getElementById('messageValid').innerHTML='Que bien, ' + name.toUpperCase();
+    document.getElementById('imageCheck').innerHTML='<img src="img/check.png" alt="check" class="imgcheck">'
     document.getElementById('message').innerHTML='Aqui te mostramos los beneficios a los que puedes acceder con tu tarjeta'
     document.getElementById('cardNumberAfter').innerHTML= 'Numero '+ newCreditCardNumber;
     document.getElementById('benefits').innerHTML='<div class="hyperlink"><a href="https://www.levi.cl/" class="text" target="blank"> 30% off zapatillas en Levis</a></div><br>'+
@@ -46,7 +48,8 @@ document.getElementById('validation').addEventListener('click', () =>{
     } 
   }
   // mostrar mensajes si el input esta vacio al hacer click
-  else{  document.getElementById('empty1').innerHTML='El campo no puede estar vacio';
+  else{
+    document.getElementById('empty1').innerHTML='El campo no puede estar vacio';
     document.getElementById('empty2').innerHTML='El campo no puede estar vacio';
   }
 });
@@ -55,5 +58,9 @@ document.getElementById('validation').addEventListener('click', () =>{
 document.getElementById('return').addEventListener('click', () =>{
   document.getElementById('principal').style.display="block";
   document.getElementById('valid').style.display="none";
-});
+  document.getElementById('userName').value='';
+  document.getElementById('creditCard').value='';
+  cardNumberA='';
+  creditcardNumber='';
 
+});
