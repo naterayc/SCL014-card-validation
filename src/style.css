@@ -7,7 +7,7 @@ body {
     width: auto;
     height: auto;
 }
-
+/* Encabezado, en header*/
 h1 {
     font-size: 3em;
     font-family:'Atma';
@@ -15,6 +15,7 @@ h1 {
     color: black;
     margin: 0;
 }
+/* Textos principales*/
 h2 {
     text-align: center;
     font-family: 'Bree Serif';
@@ -26,16 +27,18 @@ h3 {
     font-family: 'Bree Serif';
     font-size: 1.3rem;
 }
+/* Secciones, caja contenedora */
 section {
     margin: 0 auto;
-    width: 25em;
+    width: 40%;
     padding: 1.5em;
     position: relative;
     background-color: lavenderblush;
     border: 1px solid #edb194;
     border-radius: 1em;
-    margin-bottom: 0;
+    box-sizing: border-box;
 }
+/* Botones */
 button {
     background:#edb194;
 	border: solid 1px white;
@@ -45,9 +48,10 @@ button {
 	font-size: 1.2rem;
 	transition-duration: .5s;
     margin-top: 15px;
-    margin-left: 40%;
+    margin-left: 37%;
     font-family: "Bree Serif";
 }
+/* Pie de pagina*/
 footer {
     text-align: center;
     color: gray;
@@ -55,6 +59,7 @@ footer {
     font-family: Arial;
     clear: both;
 }
+/* cajas de input*/
 input {
     margin-top: .7em;
     border-top: white;
@@ -104,15 +109,112 @@ input {
     margin-left: 25%;
 }
 .imgcard{
-    height: 7em;
-    width: 7em;
-    padding-left: 9em;
+    height: auto;
+    width: 25%;
+    margin-left: 35%;
 
 }
 .imgcheck{
-    height: 2em;
-    width: 2em;
-    padding-left: 12em;
+    height: auto;
+    width: 10%;
+    margin-left: 45%;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+/* mobile portrait */
+@media only screen and (min-width: 320px)and (max-width: 479px) {
+    /* Encabezado, en header*/
+h1 {
+    font-size: 3em;
+    font-family:'Atma';
+    text-align: center;
+    color: black;
+    margin: 0;
+    max-height: 100%;
+    
+}
+/* Textos principales*/
+h2 {
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size: 2rem;
+    margin: .4em;
+}
+h3 {
+    text-align: justify;
+    font-family: 'Bree Serif';
+    font-size: 1.5rem;
+}
+/* Secciones, caja contenedora */
+section {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: .7em;
+    position: auto;
+    background-color: lavenderblush;
+    border: 1px solid #edb194;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+/* Botones */
+button {
+    background:#edb194;
+	border: solid 1px white;
+	border-radius: 5px;
+	padding: 5px;
+	color: black;
+	font-size: 1.7em;
+    font-family: "Bree Serif";
+    width: 100%;
+    margin-left: auto;
+    margin-top: 0;
+}
+/* Pie de pagina*/
+footer {
+    text-align: center;
+    color: gray;
+    margin-top: 1em;
+    font-family: Arial;
+    clear: both;
+}
+/* etiqueta label */
+.label{
+    font-family: "Bree Serif";
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: auto;
+}
+/* cajas de input*/
+input {
+    margin-top: .7em;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-bottom: 1px solid #edb194;
+    border-radius: 5px;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 1.2em;
+    width: 90%;
+    margin-left: 0;
+}
+.text2 {
+    font-family: "Bree Serif";
+    font-size: 1.2em;
+    color: rgb(245, 104, 53);
+    margin-left: 10%
+}
+.hyperlink{
+    background-color: peachpuff;
+    border-bottom: #edb194 solid 1px;
+    border-radius: 0.5em;
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 95%;
+    padding: .5em;
+    text-align: center;
+    box-sizing: content-box;
+}
 }
