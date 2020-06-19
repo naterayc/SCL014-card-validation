@@ -5,7 +5,7 @@
 La app web MiDescuento es un validador de tarjeta de crédito basado en el algoritmo de Luhn, idealizado como un buscador de descuentos, en el cual simplemente con tu nro de tarjeta de credito puedes conocer los beneficios a los que puedes acceder con ella.
 
 ## Imagen Final del proyecto
-![Final Desktop](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/finalDesktop.JPG)
+![Final Desktop]()
 ![Final Android](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/androidPortrait.JPG)
 ![Final Iphone](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/iphonePortrait.JPG)
 
