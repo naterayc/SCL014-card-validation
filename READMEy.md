@@ -27,6 +27,7 @@ Para llegar a este punto se realizaron varios prototipos en InVision para probar
 ![Primer Prototipo en papel 2](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/proto-papel2.jpg)
 
 - Primer Protipo en InVision
+
 ![Primer InVision](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/inVision1.JPG)
 
 Posterior al feedback recibido, se decidió eliminar la pantalla de despedida de la aplicación y el botón Volver, ya que estos generaban confusión a los usuarios.
