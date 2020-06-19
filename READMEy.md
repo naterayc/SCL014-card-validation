@@ -6,7 +6,7 @@ La app web MiDescuento es un validador de tarjeta de crédito basado en el algor
 
 ## Imagen Final del proyecto
 
-![Final Desktop](src/img/finalDesktop.jpg)
+![Final Desktop](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/finalDesktop.JPG)
 ![Final Android](img/androidPortrait.jpg)
 ![Final Iphone](img/iphonePortrait.jpg)
 
