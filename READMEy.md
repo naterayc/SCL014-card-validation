@@ -6,8 +6,8 @@ La app web MiDescuento es un validador de tarjeta de crédito basado en el algor
 
 ## Imagen Final del proyecto
 ![Final Desktop]()
-![Final Android](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/androidPortrait.JPG)
-![Final Iphone](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/iphonePortrait.JPG)
+![Final Android]()
+![Final Iphone]()
 
 ## Investigación UX
 
@@ -22,17 +22,17 @@ Para llegar a este punto se realizaron varios prototipos en InVision para probar
 ### Prototipos 
 
 - Prototipo en papel
-![Primer Protipo en papel](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/proto-papel1.jpg)
-![Primer Prototipo en papel 2](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/proto-papel2.jpg)
+![Primer Protipo en papel]()
+![Primer Prototipo en papel 2]()
 
 - Primer Protipo en InVision
-![Primer InVision](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/inVision1.JPG)
+![Primer InVision]()
 
 - Segundo Prototipo en InVision
-![InVision2.1](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/protoInvision2.png)
+![InVision2.1]()
 
 Posterior al feedback recibido, se decidió eliminar la pantalla de despedida de la aplicación y el botón Volver, ya que estos generaban confusión a los usuarios.
 
 ### Resultados de Test Realizaddos
 
-![Test](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/test.JPG)
+![Test]()
