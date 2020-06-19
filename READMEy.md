@@ -5,9 +5,9 @@
 La app web MiDescuento es un validador de tarjeta de crédito basado en el algoritmo de Luhn, idealizado como un buscador de descuentos, en el cual simplemente con tu nro de tarjeta de credito puedes conocer los beneficios a los que puedes acceder con ella.
 
 ## Imagen Final del proyecto
-![Final Desktop]()
-![Final Android]()
-![Final Iphone]()
+![Final Desktop](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/finalDesktop.JPG)
+![Final Android](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/androidPortrait.JPG)
+![Final Iphone](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/iphonePortrait.JPG)
 
 ## Investigación UX
 
@@ -22,17 +22,17 @@ Para llegar a este punto se realizaron varios prototipos en InVision para probar
 ### Prototipos 
 
 - Prototipo en papel
-![Primer Protipo en papel]()
-![Primer Prototipo en papel 2]()
+![Primer Protipo en papel](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/proto-papel1.jpg)
+![Primer Prototipo en papel 2](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/proto-papel2.jpg)
 
 - Primer Protipo en InVision
 ![Primer InVision]()
 
 - Segundo Prototipo en InVision
-![InVision2.1]()
+![InVision2.1](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/protoInvision2.png)
 
 Posterior al feedback recibido, se decidió eliminar la pantalla de despedida de la aplicación y el botón Volver, ya que estos generaban confusión a los usuarios.
 
 ### Resultados de Test Realizaddos
 
-![Test]()
+![Test](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/test.JPG)
