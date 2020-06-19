@@ -7,8 +7,8 @@ La app web MiDescuento es un validador de tarjeta de crédito basado en el algor
 ## Imagen Final del proyecto
 
 ![Final Desktop](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/finalDesktop.JPG)
-![Final Android](img/androidPortrait.jpg)
-![Final Iphone](img/iphonePortrait.jpg)
+![Final Android](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/androidPortrait.JPG)
+![Final Iphone](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/iphonePortrait.JPG)
 
 ## Investigación UX
 
@@ -23,24 +23,17 @@ Para llegar a este punto se realizaron varios prototipos en InVision para probar
 ### Prototipos 
 
 - Prototipo en papel
-![Primer Protipo en papel](img/proto-papel1.jpg)
-![Primer Prototipo en papel 2](img/proto-papel2.jpg)
+![Primer Protipo en papel](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/proto-papel1.jpg)
+![Primer Prototipo en papel 2](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/proto-papel2.jpg)
 
 - Primer Protipo en InVision
-![Primer InVision](img/inVision1.jpg)
-![Primer InVision 2](img/inVision2.jpg)
-![Primer InVision 3](img/inVision3.jpg)
-![Primer InVision 4](img/inVision4.jpg)
-![Primer InVision 5](img/invision5.jpg)
+![Primer InVision](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/inVision1.JPG)
 
 Posterior al feedback recibido, se decidió eliminar la pantalla de despedida de la aplicación y el botón Volver, ya que estos generaban confusión a los usuarios.
 
 - Segundo Prototipo en InVision
-![InVision2.1](img/protoInvision2.png)
-![InVision2.2](img/protoInvision2.1.png)
-![Invision2.3](img/protoInvision2.2.png)
-![InVision2.4](img/protoInvision2.3.png)
+![InVision2.1](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/protoInvision2.png)
 
 ### Resultados de Test Realizaddos
 
-![Test](img/test.jpg)
+![Test](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/test.JPG)
