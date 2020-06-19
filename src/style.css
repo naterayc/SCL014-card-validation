@@ -31,7 +31,7 @@ h3 {
 section {
     margin: 0 auto;
     width: 40%;
-    padding: 1.5em;
+    padding: 1em;
     position: relative;
     background-color: lavenderblush;
     border: 1px solid #edb194;
@@ -46,9 +46,8 @@ button {
 	padding: 10px;
 	color: black;
 	font-size: 1.2rem;
-	transition-duration: .5s;
     margin-top: 15px;
-    margin-left: 37%;
+    margin-left: 40%;
     font-family: "Bree Serif";
 }
 /* Pie de pagina*/
@@ -111,7 +110,7 @@ input {
 .imgcard{
     height: auto;
     width: 25%;
-    margin-left: 35%;
+    margin-left: 38%;
 
 }
 .imgcheck{
@@ -123,28 +122,33 @@ input {
 }
 
 /* mobile portrait */
-@media only screen and (min-width: 320px)and (max-width: 479px) {
-    /* Encabezado, en header*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+/* Encabezado, en header*/
 h1 {
-    font-size: 3em;
+    font-size: 2.8em;
     font-family:'Atma';
     text-align: center;
     color: black;
     margin: 0;
-    max-height: 100%;
+    height: 80%;
     
 }
 /* Textos principales*/
 h2 {
     text-align: center;
     font-family: 'Bree Serif';
-    font-size: 2rem;
+    font-size: 1.9rem;
     margin: .4em;
+    margin-top: 0em;
+    margin-bottom: .2em;
 }
 h3 {
     text-align: justify;
     font-family: 'Bree Serif';
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin-top: 0em;
+    margin-bottom: .3em;
 }
 /* Secciones, caja contenedora */
 section {
@@ -196,9 +200,111 @@ input {
     border-radius: 5px;
     box-sizing: content-box;
     text-align: center;
-    padding: 1.2em;
+    height: 30px;
     width: 90%;
+    font-size: 1.2em;
     margin-left: 0;
+    
+}
+.text2 {
+    font-family: "Bree Serif";
+    font-size: 1.2em;
+    color: rgb(245, 104, 53);
+    margin-left: 10%
+}
+.hyperlink{
+    background-color: peachpuff;
+    border-bottom: #edb194 solid 1px;
+    border-radius: .5em;
+    margin-left: 0;
+    margin-top: .5em;
+    margin-bottom: .4em;
+    width: 100%;
+    height: 2em;
+    text-align: center;
+    padding-top: .8em;
+    box-sizing: content-box;
+}
+}
+/* mobile landscape */
+@media only screen and (min-width:480px) and (max-width:599px){
+/* Encabezado, en header*/
+h1 {
+    font-size: 3em;
+    font-family:'Atma';
+    text-align: center;
+    color: black;
+    margin: 0;
+    height: 90%;
+    
+}
+/* Textos principales*/
+h2 {
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size: 2rem;
+    margin: .4em;
+    margin-bottom: 0;
+}
+h3 {
+    text-align: justify;
+    font-family: 'Bree Serif';
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+/* Secciones, caja contenedora */
+section {
+    margin: 0;
+    width: 100%;
+    padding: .7em;
+    position: relative;
+    background-color: lavenderblush;
+    border: 1px solid #edb194;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+/* Botones */
+button {
+    background:#edb194;
+	border: solid 1px white;
+	border-radius: 5px;
+	padding: 5px;
+	color: black;
+	font-size: 1.7em;
+    font-family: "Bree Serif";
+    width: 100%;
+    margin-left: auto;
+    margin-top: 0;
+}
+/* Pie de pagina*/
+footer {
+    text-align: center;
+    color: gray;
+    margin-top: 1em;
+    font-family: Arial;
+    clear: both;
+}
+/* etiqueta label */
+.label{
+    font-family: "Bree Serif";
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: auto;
+}
+/* cajas de input*/
+input {
+    margin-top: .7em;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-bottom: 1px solid #edb194;
+    border-radius: 5px;
+    box-sizing: content-box;
+    text-align: center;
+    height: 30px;
+    width: 90%;
+    font-size: 1.2em;
+    margin-left: 0;  
 }
 .text2 {
     font-family: "Bree Serif";
@@ -211,10 +317,270 @@ input {
     border-bottom: #edb194 solid 1px;
     border-radius: 0.5em;
     margin-left: 0;
-    margin-bottom: 0;
+    margin-top: .3em;
+    margin-bottom: 0.4em;
     width: 95%;
-    padding: .5em;
+    height: 2em;
     text-align: center;
+    padding-top: .5em;
     box-sizing: content-box;
+}
+.imgcard{
+    display: none;
+}
+.imgcheck{
+    height: auto;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+}
+
+/* small tablet-portrait */
+@media only screen and (min-width:600px) and (max-width:799px){
+/* Encabezado, en header*/
+h1 {
+    font-size: 2.3em;
+    font-family:'Atma';
+    text-align: center;
+    color: black;
+    margin: 0;
+    max-height: 100%;
+    
+}
+/* Textos principales*/
+h2 {
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size: 1.7rem;
+    margin: .4em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+h3 {
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size: 1.1em;
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+/* Secciones, caja contenedora */
+section {
+    margin: 0;
+    width: 100%;
+    padding: .7em;
+    position: relative;
+    background-color: lavenderblush;
+    border: 1px solid #edb194;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+/* Botones */
+button {
+    background:#edb194;
+	border: solid 1px white;
+	border-radius: 5px;
+	padding: 0;
+	color: black;
+	font-size: 1.5em;
+    font-family: "Bree Serif";
+    width: 100%;
+    margin-left: auto;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+/* Pie de pagina*/
+footer {
+    text-align: center;
+    color: gray;
+    margin-top: 1em;
+    font-family: Arial;
+    clear: both;
+    margin-top:.3em;
+    margin-bottom: .2em;
+}
+/* etiqueta label */
+.label{
+    font-family: "Bree Serif";
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 0;
+}
+/* cajas de input*/
+input {
+    margin-top: .2em;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-bottom: 1px solid #edb194;
+    border-radius: 5px;
+    box-sizing: content-box;
+    text-align: center;
+    height: 1em;
+    width: 97%;
+    font-size: 1.2em;
+    margin-left: 0;
+    
+}
+.text2 {
+    font-family: "Bree Serif";
+    font-size: 1.2em;
+    color: rgb(245, 104, 53);
+    margin-left: 10%
+}
+.hyperlink{
+    background-color: peachpuff;
+    border-bottom: #edb194 solid .5px;
+    border-radius: 0.5em;
+    margin-top: .3em;
+    margin-bottom: .4em;
+    width: 100%;
+    height: 1.5em;
+    text-align: center;
+    padding-top: .3em;
+    box-sizing: content-box;
+}
+.imgcard{
+    height: auto;
+    width: 9%;
+    margin-left: 45%;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+.imgcheck{
+    display: none;
+}
+.text2 {
+    margin-top: .3em;
+    margin-bottom: .3em;
+    font-family: "Bree Serif";
+    font-size: 1em;
+    color: rgb(245, 104, 53);
+    margin-left: 25%;
+}
+}
+@media only screen and (min-width:800px) and (max-width:1024px){
+/* Encabezado, en header*/
+h1 {
+    font-size: 2.3em;
+    font-family:'Atma';
+    text-align: center;
+    color: black;
+    margin: 0;
+    max-height: 100%;
+    
+}
+/* Textos principales*/
+h2 {
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size: 1.7rem;
+    margin: .4em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+h3 {
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size: 1.1em;
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+/* Secciones, caja contenedora */
+section {
+    margin: 0;
+    width: 100%;
+    padding: .7em;
+    position: relative;
+    background-color: lavenderblush;
+    border: 1px solid #edb194;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+/* Botones */
+button {
+    background:#edb194;
+	border: solid 1px white;
+	border-radius: 5px;
+	padding: 0;
+	color: black;
+	font-size: 1.5em;
+    font-family: "Bree Serif";
+    width: 100%;
+    margin-left: auto;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+/* Pie de pagina*/
+footer {
+    text-align: center;
+    color: gray;
+    margin-top: 1em;
+    font-family: Arial;
+    clear: both;
+    margin-top:.3em;
+    margin-bottom: .2em;
+}
+/* etiqueta label */
+.label{
+    font-family: "Bree Serif";
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 0;
+}
+/* cajas de input*/
+input {
+    margin-top: .2em;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-bottom: 1px solid #edb194;
+    border-radius: 5px;
+    box-sizing: content-box;
+    text-align: center;
+    height: 1em;
+    width: 97%;
+    font-size: 1.2em;
+    margin-left: 0;
+    
+}
+.text2 {
+    font-family: "Bree Serif";
+    font-size: 1.2em;
+    color: rgb(245, 104, 53);
+    margin-left: 10%
+}
+.hyperlink{
+    background-color: peachpuff;
+    border-bottom: #edb194 solid .5px;
+    border-radius: 0.5em;
+    margin-top: .3em;
+    margin-bottom: .4em;
+    width: 100%;
+    height: 1.5em;
+    text-align: center;
+    padding-top: .3em;
+    box-sizing: content-box;
+}
+.imgcard{
+    height: auto;
+    width: 9%;
+    margin-left: 45%;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+.imgcheck{
+    display: none;
+}
+.text2 {
+    margin-top: .3em;
+    margin-bottom: .3em;
+    font-family: "Bree Serif";
+    font-size: 1em;
+    color: rgb(245, 104, 53);
+    margin-left: 25%;
 }
 }

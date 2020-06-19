@@ -34,18 +34,18 @@ document.getElementById('validation').addEventListener('click', () =>{
   //llamando a maskify
     let newCreditCardNumber=validator.maskify(creditcardNumber);
   //mostrando resultados en pantalla valid
-    document.getElementById('messageValid').innerHTML='Que bien, ' + name.toUpperCase();
+    document.getElementById('messageValid').innerHTML='QUE BIEN ' + name.toUpperCase();
     document.getElementById('imageCheck').innerHTML='<img src="img/check.png" alt="check" class="imgcheck">'
     document.getElementById('message').innerHTML='Aqui te mostramos los beneficios a los que puedes acceder con tu tarjeta'
     document.getElementById('cardNumberAfter').innerHTML= 'Numero '+ newCreditCardNumber;
-    document.getElementById('benefits').innerHTML='<div class="hyperlink"><a href="https://www.levi.cl/" class="text" target="blank"> 30% off zapatillas en Levis</a></div><br>'+
-'<div class="hyperlink"><a href="https://www.lider.cl/" class="text" target="blank">Despacho gratis en Lider.cl solo RM</a></div><br>'+
-'<div class="hyperlink"><a href="https://www.falabella.com/falabella-cl/" class="text" target="blank">35%off moda mujer en Falabella.cl</a></div><br>'
+    document.getElementById('benefits').innerHTML='<div class="hyperlink"><a href="https://www.levi.cl/" class="text" target="blank"> 30% off zapatillas en Levis</a></div>'+
+'<div class="hyperlink"><a href="https://www.lider.cl/" class="text" target="blank">Despacho gratis en Lider.cl solo RM</a></div>'+
+'<div class="hyperlink"><a href="https://www.falabella.com/falabella-cl/" class="text" target="blank">35%off moda mujer en Falabella.cl</a></div>'
     }
     else if (valid===false) {
       
-      document.getElementById('messageValid').innerHTML='Lo sentimos ' + name.toUpperCase();
-      document.getElementById('message').innerHTML='En estos momentos no encontramos beneficios para tu tarjeta';
+      document.getElementById('messageValid').innerHTML=' Tarjeta Invalida';
+      document.getElementById('message').innerHTML='Lo sentimos ' + name.toUpperCase()+' en estos momentos no encontramos beneficios';
       document.getElementById('benefits').innerHTML='';
       document.getElementById('imageCheck').innerHTML='';
       document.getElementById('cardNumberAfter').innerHTML='';

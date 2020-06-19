@@ -32,7 +32,7 @@ const validator = {
     //reducir los digitos de la tarjeta capturados en arrays para despues sumarlos
 
        let sumOdd=odd.reduce((a,b)=> a + b, 0);
-       let sumEven=doubleReduced.reduce((a,b)=> a +b, 0);
+       let sumEven=doubleReduced.reduce((a,b)=> a + b, 0);
 
     //sumando todos los nros de la tarjeta
        resultCardNumber=parseInt(sumOdd+sumEven);
@@ -41,7 +41,6 @@ const validator = {
             return true;
         }
         else{
-          //console.log('invalido');
             return false;
         }
     },
