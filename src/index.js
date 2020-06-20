@@ -26,7 +26,7 @@ document.getElementById('validation').addEventListener('click', () =>{
       //convertir el nro de tarjeta en un array
       let cardNumberA=[];
       for (let i=0; i<creditcardNumber.length; i++){
-        cardNumberA.push(parseInt(creditcardNumber[i]));
+        cardNumberAgit (creditcardNumber[i]));
       }
       //luego de validar
       let valid=validator.isValid(cardNumberA);
