@@ -89,11 +89,12 @@ input {
     background-color: peachpuff;
     border-bottom: #edb194 solid 1px;
     border-radius: 0.5em;
-    margin: auto;
+    margin-bottom: 1em;
     height: 1.3em;
     width: 16em;
     text-align: center;
     box-sizing: content-box;
+    margin-left: 25%;
 }
 .label{
     font-family: "Bree Serif";
