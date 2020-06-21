@@ -15,6 +15,9 @@ document.getElementById('validation').addEventListener('click', () =>{
     //condiciona que los inputs no pueden estar vacios 
       if (document.getElementById('userName').value !=='' && document.getElementById('creditCard').value !=='' ){
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9708f49... hola
       //captura nombre del usuario
        const name= document.getElementById('userName').value;
       //captura numero de tarjeta   
@@ -26,7 +29,11 @@ document.getElementById('validation').addEventListener('click', () =>{
       //convertir el nro de tarjeta en un array
       let cardNumberA=[];
       for (let i=0; i<creditcardNumber.length; i++){
+<<<<<<< HEAD
         cardNumberAgit (creditcardNumber[i]));
+=======
+        cardNumberA.push(parseInt(creditcardNumber[i]));
+>>>>>>> 9708f49... hola
       }
       //luego de validar
       let valid=validator.isValid(cardNumberA);
@@ -39,6 +46,7 @@ document.getElementById('validation').addEventListener('click', () =>{
           document.getElementById('message').innerHTML='Aqui te mostramos los beneficios a los que puedes acceder con tu tarjeta'
           document.getElementById('cardNumberAfter').innerHTML= 'Numero '+ newCreditCardNumber;
           document.getElementById('benefits').innerHTML='<div class="hyperlink"><a href="https://www.levi.cl/" class="text" target="blank"> 30% off zapatillas en Levis</a></div><br>'+
+<<<<<<< HEAD
 '<div class="hyperlink"><a href="https://www.lider.cl/" class="text" target="blank">Despacho gratis en Lider.cl solo RM</a></div><br>'+
 '<div class="hyperlink"><a href="https://www.falabella.com/falabella-cl/" class="text" target="blank">35%off moda mujer en Falabella.cl</a></div><br>'
         }
@@ -100,6 +108,23 @@ document.getElementById('validation').addEventListener('click', () =>{
   }
 });
 >>>>>>> a25060d3c8f58c1d2d4ae6fe43f63658c4582327
+=======
+'<div class="hyperlink"><a href="https://www.lider.cl/" class="text" target="blank">Despacho gratis en Lider.cl solo RM</a></div><br>'+
+'<div class="hyperlink"><a href="https://www.falabella.com/falabella-cl/" class="text" target="blank">35%off moda mujer en Falabella.cl</a></div><br>'
+        }
+        else {
+          document.getElementById('messageValid').innerHTML='Lo sentimos, ' + name.toUpperCase();
+          document.getElementById('message').innerHTML='En estos momentos no encontramos beneficios para tu tarjeta';
+          document.getElementById('cardNumberAfter').innerHTML='Numero '+ newCreditCardNumber;
+        } 
+      }
+      // mostrar mensajes si el input esta vacio al hacer click
+      else{
+        document.getElementById('empty1').innerHTML='El campo no puede estar vacio';
+        document.getElementById('empty2').innerHTML='El campo no puede estar vacio';
+      }
+  });
+>>>>>>> 9708f49... hola
 
 //funcionalidad del boton Volver (regresa a la pantalla principal)
 document.getElementById('return').addEventListener('click', () =>{
