@@ -108,10 +108,16 @@ document.getElementById('return').addEventListener('click', () =>{
   document.getElementById('userName').value='';
   document.getElementById('creditCard').value='';
 <<<<<<< HEAD
+<<<<<<< HEAD
   cardNumberA='';
   creditcardNumber='';
 
 =======
   document.getElementById('benefits').innerHTML='';
 >>>>>>> a25060d3c8f58c1d2d4ae6fe43f63658c4582327
+=======
+  cardNumberA='';
+  creditcardNumber='';
+
+>>>>>>> 88f8aa9... Making InitialPomChanges match develop
 });

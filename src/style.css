@@ -2,6 +2,7 @@
 
 body {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: papayawhip;
 }
 =======
@@ -10,6 +11,9 @@ body {
     background-size:auto;
     width: auto;
     height: auto;
+=======
+    background-color: papayawhip;
+>>>>>>> 88f8aa9... Making InitialPomChanges match develop
 }
 
 >>>>>>> a25060d3c8f58c1d2d4ae6fe43f63658c4582327
@@ -18,10 +22,14 @@ h1 {
     font-family:'Atma';
     text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: orangered;
 =======
     color: black;
 >>>>>>> a25060d3c8f58c1d2d4ae6fe43f63658c4582327
+=======
+    color: orangered;
+>>>>>>> 88f8aa9... Making InitialPomChanges match develop
     margin: 0;
 }
 h2 {
@@ -41,17 +49,25 @@ section {
     padding: 1.5em;
     position: relative;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: lemonchiffon;
     border: 1px solid orange;
 =======
     background-color: lavenderblush;
     border: 1px solid #edb194;
 >>>>>>> a25060d3c8f58c1d2d4ae6fe43f63658c4582327
+=======
+    background-color: lemonchiffon;
+    border: 1px solid orange;
+>>>>>>> 88f8aa9... Making InitialPomChanges match develop
     border-radius: 1em;
     margin-bottom: 0;
 }
 button {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88f8aa9... Making InitialPomChanges match develop
     background: orange;
 	border: none;
 =======
@@ -76,6 +92,7 @@ footer {
 }
 input {
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin: auto;
     border: 1px solid orangered;
 =======
@@ -85,6 +102,10 @@ input {
     border-right: white;
     border-bottom: 1px solid #edb194;
 >>>>>>> a25060d3c8f58c1d2d4ae6fe43f63658c4582327
+=======
+    margin: auto;
+    border: 1px solid orangered;
+>>>>>>> 88f8aa9... Making InitialPomChanges match develop
     border-radius: 5px;
     box-sizing: content-box;
     text-align: center;
@@ -108,10 +129,14 @@ input {
 .hyperlink{
     background-color: peachpuff;
 <<<<<<< HEAD
+<<<<<<< HEAD
     border-bottom: orangered solid 1px;
 =======
     border-bottom: #edb194 solid 1px;
 >>>>>>> a25060d3c8f58c1d2d4ae6fe43f63658c4582327
+=======
+    border-bottom: orangered solid 1px;
+>>>>>>> 88f8aa9... Making InitialPomChanges match develop
     border-radius: 0.5em;
     margin: auto;
     height: 1.3em;
@@ -129,10 +154,14 @@ input {
     font-family: "Bree Serif";
     font-size: 1rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: orangered;
 =======
     color: rgb(245, 104, 53);
 >>>>>>> a25060d3c8f58c1d2d4ae6fe43f63658c4582327
+=======
+    color: orangered;
+>>>>>>> 88f8aa9... Making InitialPomChanges match develop
     margin-left: 25%;
 }
 .imgcard{
@@ -148,7 +177,11 @@ input {
     margin-top: 0;
     margin-bottom: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> a25060d3c8f58c1d2d4ae6fe43f63658c4582327
+=======
+}
+>>>>>>> 88f8aa9... Making InitialPomChanges match develop
