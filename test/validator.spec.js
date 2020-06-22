@@ -12,10 +12,10 @@ describe('validator', () => {
     });
 
     test('debería retornar true para "4083952015263"', () => {
-      expect(validator.isValid('4083952015263')).toBe(false);
+      expect(validator.isValid('4083952015263')).toBe(true);
     });
-    test('deberia retornar true para "4137894711755904"', ()=>{
-      expect(validator.isValid('4137894711755904')).toBe(true);
+    test('deberia retornar false para "413789471234"', ()=>{
+      expect(validator.isValid('413789471234')).toBe(false);
     });
   });
 
