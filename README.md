@@ -7,7 +7,7 @@ La app web MIDESCUENTO es un validador de tarjeta de crédito basado en el algor
 
 ## Imagen Final del proyecto
 
-[Link a la aplicación]:https://naterayc.github.io/SCL014-card-validation/src/index.html
+[Link a la aplicación](https://naterayc.github.io/SCL014-card-validation/src/index.html)
 
 ![Final Desktop](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/finalDesktop.JPG)
 ![Final Android](https://github.com/naterayc/SCL014-card-validation/blob/pruebas/src/img/androidPortrait.JPG)
