@@ -13,7 +13,7 @@ document.getElementById('go').addEventListener('click', () =>{
 //funcionalidad del boton "validar", captura valores del input
 document.getElementById('validation').addEventListener('click', () =>{
     //condiciona que los inputs no pueden estar vacios 
-      if (document.getElementById('userName').value !=='' && document.getElementById('creditCard').value !=='' ){
+    if (document.getElementById('userName').value !=='' && document.getElementById('creditCard').value !=='' ){
     //captura nombre del usuario
       const name= document.getElementById('userName').value;
     //captura numero de tarjeta
